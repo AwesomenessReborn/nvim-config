@@ -1,3 +1,6 @@
+vim.cmd("set tabstop=4")
+vim.expandtab = true
+
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
 
@@ -25,8 +28,8 @@ vim.opt.timeoutlen = 300
 vim.opt.splitright = true
 vim.opt.splitbelow = true
 
-vim.opt.list = true
-vim.opt.listchars = { tab = "» ", trail = "·", nbsp = "␣" }
+-- vim.opt.list = true
+-- vim.opt.listchars = { tab = "» ", trail = "·", nbsp = "␣" }
 
 vim.opt.inccommand = "split"
 
